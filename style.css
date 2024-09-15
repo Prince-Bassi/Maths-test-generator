@@ -1,5 +1,9 @@
 * {box-sizing: border-box;}
 
+body {
+       margin: 10px;
+}
+
 .generator {
        padding: 10px;
        background: lightgray;
