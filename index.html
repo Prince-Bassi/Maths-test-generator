@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+       <head>
+              <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+              <title>How To</title>
+              <link rel="stylesheet" href="HowTo.css" />
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       </head>
+       <body>
+              <div class="generator">
+                     <label for="type">Type of Equations: </label>
+                     <select id="type">
+                            <option value="allOperators">All</option>
+                            <option value="+">Addition</option>
+                            <option value="-">Subtraction</option>
+                            <option value="*">Multiplication</option>
+                            <option value="/">Division</option>
+                     </select>
+                     <label for="numOfDigits">Number of digits: </label>
+                     <select id="numOfDigits">
+                            <option value="1">1 digit</option>
+                            <option value="2">2 digits</option>
+                            <option value="3">3 digits</option>
+                            <option value="4">4 digits</option>
+                     </select>
+                     <label for="numOfQuestions">Number of Questions: </label>
+                     <select id="numOfQuestions">
+                            <option value="5">5 Questions</option>
+                            <option value="10">10 Questions</option>
+                            <option value="15">15 Questions</option>
+                            <option value="20">20 Questions</option>
+                     </select>
+              </div>
+              <button class="submit">Generate Test</button>
+              <ol class="test"></ol>
+              <script src="HowTo.js"></script>
+       </body>
+</html>
